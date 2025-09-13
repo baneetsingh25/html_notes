@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+</head>
+<body>
+
+  <!-- Page Heading -->
+  <h1>How internet works?</h1>
+  <img src="download.jpeg" alt="">
+
+  <!-- Introduction -->
+  <p>
+   So, the internet isn't magic. It's a series of logical solutions to a series of fundamental problems.
+   <ol>
+    <li><B>Problem:</B> Share data between two computers. <B>Solution:</B> A direct physical link.</li>
+    <li><B>Problem:</B> Connect many computers efficiently. <B>Solution:</B>: A local network with a central switch</li>
+    <li><B>Problem:</B> Connect many networks efficiently. <B>Solution:</B>: An internetwork connected by routers.</li>
+    <li><B>Problem:</B> Find a specific computer in this massive web. <B>Solution:</B>: A universal IP Address for every device.</li>
+    <li><B>Problem:</B> Send data reliably and fairly without errors. <B>Solution:</B>: A set of rules (TCP/IP) to break data into small, addressed packets that can be reassembled.</li>
+   </ol>
+  </p>
+
+  <!-- Main Notes Section -->
+  <h2>IP address</h2>
+  <p>
+    When the internet was designed, 4.3 billion seemed like an infinite number. But with the explosion of laptops, phones, servers, smart watches, and even smart refrigerators, we quickly realized we would run out. This scarcity is the single most important reason we have public and private IPs.
+  </p>
+  <ul>
+    <li><h3>Public IP address</h3>
+    <P>A Public IP address is your global, unique address on the internet.</P>
+    <li><b>Analogy:</b> The company’s main, public phone number.</li>
+    <li><b>Uniqueness:</b> It must be <i>globally unique</i>. No two devices on the internet can have the same public IP address at the same time.</li>
+    <li><b>Purpose:</b> To be reachable from anywhere in the world. This is the address that web servers, email servers, and any other public service use.</li>
+    <li><b>Assignment:</b> It is assigned to you by your <b>Internet Service Provider (ISP)</b> (Comcast, AT&amp;T, etc.). You don’t control it; you lease it from them.</li>
+    <li><b>Who has one?</b> Your home router has one. The server hosting google.com has one. The server hosting Netflix has one.</li>
+</li>
+    <li><h3>Private IP adress</h3></li>
+    <p>A Private IP address is a <b>local address used only within your own private network</b> 
+    (e.g., your home Wi-Fi, your office network).</p>
+    
+  <ul>
+    <li><b>Analogy:</b> The employee’s private, 4-digit extension number.</li>
+
+    <li><b>Uniqueness:</b> It only needs to be unique <i>on your local network</i>.  
+      My laptop can have the address 192.168.1.100 on my home Wi-Fi, and your laptop 
+      can have the <i>exact same address</i> on your home Wi-Fi.  
+      They don’t conflict because they are in separate, private networks.
+    </li>
+
+    <li><b>Purpose:</b> To allow devices on the same local network to communicate 
+      without needing a globally unique address.  
+      Example: Your laptop talks to your printer using private IPs.  
+      Your phone streams to your Chromecast using private IPs.
+    </li>
+
+    <li><b>Assignment:</b> It is assigned to your devices by your own <b>router</b>.</li>
+
+    <li><b>Reserved Ranges:</b> The internet authorities have reserved specific ranges 
+      of addresses just for this purpose. If you see an IP address starting with one of these, 
+      you know it’s a private address:
+      <ul>
+        <li>10.0.0.0 to 10.255.255.255 (Used by large corporations)</li>
+        <li>172.16.0.0 to 172.31.255.255 (Used by medium-sized networks)</li>
+        <li>192.168.0.0 to 192.168.255.255 (Most common for home networks)</li>
+      </ul>
+    </li>
+  </ul>
+  </ul>
+
+  <H2>IPV4 AND IPV6</H2>
+  <P>- <B>IPv4:</B> Uses a <B>32-bit</B> address, giving us ~4.3 billion unique addresses.
+- <B>IPv6:</B> Uses a <B>128-bit</B> address.</P>
+
+<H2>Mac address</H2>
+<p>A <b>MAC (Media Access Control) Address </b>is a unique, permanent serial number burned into every network-capable piece of hardware (your laptop's Wi-Fi card, your phone, your smart TV, the network port on your desktop).</p>
+
+  <!-- Examples -->
+  <img src="image.png" width="800px" alt="notes">
+
+  <!-- Navigation Links -->
+  <p>
+    <a href="index.html">🏠 Back to Home</a> | 
+    <a href="day2.html">➡ Next Topic</a>
+  </p>
+
+</body>
+</html>
+
+    
+</body>
+</html>
